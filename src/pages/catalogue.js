@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import Page from "components/Page";
+import Page from "components/page";
 import { DataGrid } from "@material-ui/data-grid";
 import data from "../data.json";
 
