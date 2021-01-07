@@ -1,0 +1,16 @@
+image: node:15
+
+cache:
+  paths:
+    - node_modules/
+
+pages:
+  script:
+    - npm install
+    - npm run build
+    - npm run export
+  artifacts:
+    paths:
+      - out
+  only:
+    - master
